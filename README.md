@@ -2,6 +2,7 @@
 Automated quality inspection has received increased attention across industries in the wake of Industry 4.0. This project aims to identify metal surface defects such as rolled-in scale, patches, crazing, pitted surface, inclusion and scratches (as depicted in the image below) in Hot-Rolled Steel Strips. The defects are classified into their specific classes via a convolutional neural network (CNN).<br /><br />
 ![Image](https://github.com/Ashish-Abraham/Quality-Control-Hot-Rolled-Steel-Strips/blob/main/Surface%20Defects.png)
 ## Neural Network
+* Multi-Class Classification Model
 * Framework : TensorFlow( Version: 2.6.0 )
 * Architecture: Convolutional Neural Network 2D<br/><br/>
 ![Image](https://github.com/Ashish-Abraham/Quality-Control-Hot-Rolled-Steel-Strips/blob/main/cnn_architecture.png)
