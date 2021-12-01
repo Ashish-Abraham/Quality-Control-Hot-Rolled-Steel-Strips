@@ -14,5 +14,5 @@ Upload the python notebook in the folder **'model'** to Google Colab and run eac
 ## How to use:
 * Download ML model .h5 file using code from jupyter notebook
 * model = load_model('model.h5')<br/><br/>
-It can be deployed in a continuous production line using computer vision libraries. Any opinion or help on this is welcome.
+It can be deployed in a continuous production line using computer vision libraries. Any help regarding this is welcome.
 
