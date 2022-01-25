@@ -10,10 +10,10 @@ Automated quality inspection has received increased attention across industries 
 ![Image](https://github.com/Ashish-Abraham/Quality-Control-Hot-Rolled-Steel-Strips/blob/main/model_accuracy.png)
 ![Image](https://github.com/Ashish-Abraham/Quality-Control-Hot-Rolled-Steel-Strips/blob/main/loss_curve.png)
 * Dataset used:<br />NEU Surface Defect Database<br />https://www.kaggle.com/fantacher/neu-metal-surface-defects-data
-### How to train
-Upload the python notebook in the folder **'model'** to Google Colab and run each cell for training the model.
+### Model Result<br/><br/>
+![Image](https://github.com/Ashish-Abraham/Quality-Control-Hot-Rolled-Steel-Strips/blob/main/results.png)
 ## How to use:
-* Download ML model .h5 file using code from jupyter notebook
-* model = load_model('model.h5')<br/><br/>
+* Model has been deployed as api using Flask.
+* Host in required web service and use.<br>
 It can be deployed in a continuous production line using computer vision libraries. Any help regarding this is welcome.
 
