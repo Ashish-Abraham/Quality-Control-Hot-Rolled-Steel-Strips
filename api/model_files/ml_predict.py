@@ -3,7 +3,6 @@ from tensorflow import cast
 from tensorflow.image import resize
 import numpy as np
 from tensorflow.keras.models import load_model
-import io
 
 reference = {0: "Crazing", 1: "Inclusion", 2: "Patches", 3: "Pitted", 4: "Rolled", 5:"Scratches"}
 

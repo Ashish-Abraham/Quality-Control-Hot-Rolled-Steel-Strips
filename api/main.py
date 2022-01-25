@@ -3,6 +3,7 @@ from flask_cors import CORS
 from model_files.ml_predict import predict_defect
 from tensorflow.keras.models import load_model
 import base64
+import os
 
 
 app = Flask("quality_control_api")
@@ -14,7 +15,8 @@ def predict():
     key_dict = request.get_json()
     image = key_dict["image"]
     imgdata = base64.b64decode(image)
-    model = load_model('model_files\Metal_surface_defect_detector (1).h5/content/Metal_surface_defect_detector.h5')
+    model_path=os.path.join('model_files','Metal_surface_defect_detector (1).h5')
+    model = load_model(model_path)
     defect = predict_defect(model, imgdata)
     response = {
         "result": defect,
