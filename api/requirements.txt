@@ -1,5 +1,4 @@
 tensorflow-cpu
-torchvision
 numpy
 pandas
 matplotlib
