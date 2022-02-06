@@ -14,6 +14,7 @@ Automated quality inspection has received increased attention across industries 
 ![Image](https://github.com/Ashish-Abraham/Quality-Control-Hot-Rolled-Steel-Strips/blob/main/results.png)
 ## How to use:
 * Model has been deployed as api using Flask.
-* Host in required web service and use.<br>
+* Host in required web service and use.
+* Take a demo at https://huggingface.co/spaces/ashishabraham22/Quality-Ctrl-Steel <br>
 It can be deployed in a continuous production line using computer vision libraries. Any help regarding this is welcome.
 
